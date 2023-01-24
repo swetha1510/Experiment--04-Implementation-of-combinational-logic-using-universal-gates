@@ -11,7 +11,8 @@ F=(((C.B'.A)+(D.C'.A)+(C.B'.A))')' using NOR gate
 ## Software – Quartus prime
 
 
-## Theory
+## Theory 
+
 Logic gates are electronic circuits which perform logical functions on one or more inputs to produce one output. 
 
 ## Using NAND gates
@@ -28,6 +29,12 @@ F=(((C.B'.A)+(D.C'.A)+(C.B'.A))')'
 
 ## Logic Diagram
 ## Procedure 
+### 1.Using NAND Gares and wires contruct F=((C' .B.A)'(D' .C.A)'(C.B.A)')'
+### 2.Construct the same for F=(((C.B' .A)+(D.C' .A)+(C.B' .A)')' using NOR gates and wires
+### 3.Find RTL and Timing Diagram for both the exprssions
+### 4.End the program
+
+
 ## Program:
 ```
 Program to implement the given logic function using NAND and NOR gates and to verify its operations in quartus using Verilog programming.
@@ -59,20 +66,19 @@ endmodule
 ```
 
 ## output:
-
+### COMBINATI0ON 1
 ### RTL realization
-### COMBINATION 1
 ![COMB1RTL_page-0001](https://user-images.githubusercontent.com/120623583/214080316-0ad1ee7c-1bab-45f1-8c8f-df15c8f50079.jpg)
 
-##3 TIMING DIAGRAM
-![COMB1SIMULATION_page-0001](https://user-images.githubusercontent.com/120623583/214081088-da06b94d-0f6c-4806-82c6-7f44dcf02101.jpg)
+### TIMING DIAGRAM
+![COMB1SIMULATION](https://user-images.githubusercontent.com/120623583/214215334-04405c34-bc47-4d37-8148-5875a2986e4e.png)
 
 ### COMBINATION 2
 ### RTL realization
-![COMB2RTL_page-0001](https://user-images.githubusercontent.com/120623583/214081498-a0d6aa3c-986d-4f1e-b241-653271ca0208.jpg)
+![COMB2RTL](https://user-images.githubusercontent.com/120623583/214215393-cff925c1-8cb7-46bd-8cda-167da159dbda.png)
 
 ### Timing diagram
-![comb2SIMULATION_page-0001](https://user-images.githubusercontent.com/120623583/214081747-d5a9832d-bd82-4bda-8c79-40d5662391b6.jpg)
+![comb2SIMULATION](https://user-images.githubusercontent.com/120623583/214215451-924da9ab-e2e1-4938-89ee-25c15ac08988.png)
 
 ## Result:
 Thus the given logic functions are implemented using NAND and NOR gates and their operations are verified using Verilog programming.
